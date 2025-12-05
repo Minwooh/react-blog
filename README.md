@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+## 📝 React Blog - Study Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React 학습을 위한 간단한 블로그 프로젝트입니다.
+Firebase를 통해 사용자 인증 및 CRUD 기능을 구현하고, Context API를 활용해 다크모드를 제공합니다.
 
-## Available Scripts
+## 📌 프로젝트 개요 및 목표
 
-In the project directory, you can run:
+* React 기본 개념 숙달 (컴포넌트, 상태 관리, 라우팅 등)
 
-### `npm start`
+* Firebase를 활용한 사용자 인증 & 데이터베이스 연동
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* 다크모드, 댓글 기능 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Firebase Hosting 배포 경험
 
-### `npm test`
+## 🛠 기술 스택
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React (CRA)
 
-### `npm run build`
+* Firebase Authentication / Firestore
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Context API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* CSS / Styled Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 주요 기능
+| 기능 | 구분	| 설명
+| --- | ---- | --- |
+기본 | 레이아웃 구성 | 	Header, Post List, Detail Page, 작성 페이지
+사용자 인증 |	Firebase | Email/Password 로그인
+게시글 CRUD |	Firestore 기반 | 데이터 생성/조회/수정/삭제
+댓글 기능	| Post | 상세 페이지에서 Firestore 댓글 작성
+다크모드	| Context API | 사용 상태 관리
+배포	| Firebase | Hosting
 
-### `npm run eject`
+## 🚀 실행 방법
+```
+# Install
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Run
+npm start```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 배포 URL
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Firebase Hosting: 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📌 향후 개선 계획
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* 이미지 업로드 기능
+* 반응형 UI

@@ -1,6 +1,6 @@
 ## 📝 React Blog - Study Project
 
-React 학습을 위한 간단한 블로그 프로젝트입니다.
+React 학습을 위한 간단한 블로그 프로젝트입니다.<br/>
 Firebase를 통해 사용자 인증 및 CRUD 기능을 구현하고, Context API를 활용해 다크모드를 제공합니다.
 
 ## 📌 프로젝트 개요 및 목표
@@ -39,7 +39,8 @@ Firebase를 통해 사용자 인증 및 CRUD 기능을 구현하고, Context API
 npm install
 
 # Run
-npm start```
+npm start
+```
 
 ## 🌐 배포 URL
 

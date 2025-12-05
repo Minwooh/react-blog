@@ -21,7 +21,7 @@ Firebase를 통해 사용자 인증 및 CRUD 기능을 구현하고, Context API
 
 * Context API
 
-* CSS / Styled Components
+* CSS : BEM 모델
 
 ## 📂 주요 기능
 | 기능 | 구분	| 설명

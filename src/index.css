@@ -146,3 +146,91 @@ footer a:hover {
     font-size: 14px;
     color: gray;
 }
+
+.post__delete {
+    cursor: pointer;
+}
+
+.post__delete:hover,
+.post__delete:focus {
+    color: black;
+}
+
+.post__edit:hover,
+.post__edit:focus,
+.post__edit a:hover,
+.post__edit a:focus {
+    color: black;
+}
+
+.post__edit a {
+    text-decoration: none;
+    color: gray;
+}
+
+/* post detail */
+.post__detail .post__title {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.post__detail .post__utils-box {
+    padding: 10px 0px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    flex-direction: row;
+}
+
+.post__detail .post__profile-box {
+    padding: 10px 0px;
+}
+
+.post__detail .post__text {
+    padding: 20px 0px;
+}
+
+/* profile */
+.profile__box {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 680px;
+    text-align: left;
+    line-height: 24px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.flex__box-lg {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.profile__image {
+    width: 72px;
+    height: 72px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+}
+
+.profile__name {
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.profile__email {
+    font-weight: 500;
+}
+
+.profile__logout {
+    color: gray;
+    font-size: 14px;
+}
+
+.profile__logout:hover,
+.profile__logout:focus {
+    color: black;
+}

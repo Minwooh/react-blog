@@ -3,6 +3,23 @@
 React 학습을 위한 간단한 블로그 프로젝트입니다.<br/>
 Firebase를 통해 사용자 인증 및 CRUD 기능을 구현하고, Context API를 활용해 다크모드를 제공합니다.
 
+## 폴더 구조
+<img width="256" height="483" alt="Image" src="https://github.com/user-attachments/assets/7968cc55-d3f3-470f-a2e3-d3ebc230d92c" />
+
+<br/>
+<br/>
+
+| 경로 | 설명 |
+| --- | --- |
+/ | 홈
+/login | 로그인
+/signup | 회원가입
+/posts | 글 목록 보기
+/posts/:id | 글 상세 보기
+/posts/new | 새 글 작성하기
+/posts/edit/:id | 글 수정하기
+/profile | 프로필 확인
+
 ## 📌 프로젝트 개요 및 목표
 
 * React 기본 개념 숙달 (컴포넌트, 상태 관리, 라우팅 등)

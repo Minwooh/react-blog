@@ -1,5 +1,5 @@
-function SignUp() {
+function SignUpPage() {
     return <></>;
 }
 
-export default SignUp;
+export default SignUpPage;

@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "pages/home";
 import PostNew from "pages/posts/new";
@@ -10,9 +8,11 @@ import PostListPage from "pages/posts";
 import LoginPage from "pages/login";
 import SignUpPage from "pages/signup";
 
-function Router() {
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+interface RouterProps {
+    isAuthenticated: boolean;
+}
 
+function Router({ isAuthenticated }: RouterProps) {
     //firebase 사용자 인증시 true로 set하는 로직 추가
     return (
         <>
